@@ -1,6 +1,6 @@
 import createHeading from './heading.js'
-import icon from './icon.png'
 import './main.css'
+import icon from './icon.png'
 
 console.log(icon);
 
