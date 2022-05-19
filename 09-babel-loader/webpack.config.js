@@ -15,8 +15,9 @@ module.exports = {
         use: {
           loader: 'babel-loader',
           options: {
-            presets: ['@babel/preset-env']
-          }
+            //  或者通过babel配置文件.babelrc来设置
+            presets: ["@babel/preset-env"],
+          },
         }
       },
       {
